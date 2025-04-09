@@ -1,0 +1,528 @@
+{
+  "name": "small village",
+  "description": "",
+  "type": "village",
+  "width": 80,
+  "height": 40,
+  "elements": [
+    {
+      "name": "ground",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "textures": [
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base.png",
+            "collision": false,
+            "cover": false,
+            "rate": 24
+          },
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base_1.png",
+            "collision": false,
+            "cover": false,
+            "rate": 2
+          },
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base_2.png",
+            "collision": false,
+            "cover": false,
+            "rate": 2
+          },
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base_3.png",
+            "collision": false,
+            "cover": false,
+            "rate": 2
+          },
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base_4.png",
+            "collision": false,
+            "cover": false,
+            "rate": 2
+          },
+          {
+            "name": "grass",
+            "type": "tile",
+            "image": "assets/grass_base_5.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "grass",
+            "type": "auto_tile",
+            "method": "blob47",
+            "image": "assets/grass_blob47.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          }
+        ]}
+    },
+    {
+      "name": "river",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "textures": [
+          {
+              "name": "water_edge",
+              "type": "auto_tile",
+              "method": "blob47",
+              "image": "assets/water_blob47.png",
+              "collision": true,
+              "cover": false,
+              "rate": 1
+          }
+      ]
+      }
+    },
+    {
+      "name": "town",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "town",
+        "scale": 8,
+        "spec_buildings": [],
+        "default_buildings": [
+          {
+            "name": "cabin",
+            "description": "",
+            "data": {
+              "type": "objectgroup",
+              "textures": [
+                  {
+                      "name": "house",
+                      "image": "assets/village_house_2.png",
+                      "width": 5,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "house",
+                      "image": "assets/village_house_5.png",
+                      "width": 7,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "big_house",
+                      "image": "assets/village_house_big.png",
+                      "width": 8,
+                      "height": 6,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "blue_house",
+                      "image": "assets/village_house_blue.png",
+                      "width": 5,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "house",
+                      "image": "assets/village_house_threestairs.png",
+                      "width": 5,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "inn",
+                      "image": "assets/village_inn.png",
+                      "width": 5,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["sell", "lodging"],
+                          ["buy", "lodging"]
+                      ]
+                  },
+                  {
+                      "name": "restaurant",
+                      "image": "assets/village_restaurant.png",
+                      "width": 9,
+                      "height": 6,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["sell", "food"],
+                          ["buy", "food"]
+                      ]
+                  },
+                  {
+                      "name": "shop",
+                      "image": "assets/village_shop_autumn.png",
+                      "width": 7,
+                      "height": 5,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["sell", "goods"],
+                          ["buy", "goods"]
+                      ]
+                  },
+                  {
+                      "name": "mansion",
+                      "image": "assets/village_mansion.png",
+                      "width": 8,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "street",
+                      "image": "assets/village_street_1.png",
+                      "width": 10,
+                      "height": 6,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "street",
+                      "image": "assets/village_street_2.png",
+                      "width": 12,
+                      "height": 8,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "eat"],
+                          ["use", "rest"]
+                      ]
+                  },
+                  {
+                      "name": "shop",
+                      "image": "assets/village_shop.png",
+                      "width": 8,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["sell", "goods"],
+                          ["buy", "goods"]
+                      ]
+                  },
+                  {
+                      "name": "shop_2",
+                      "image": "assets/village_shop_2.png",
+                      "width": 8,
+                      "height": 4,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["sell", "goods"],
+                          ["buy", "goods"]
+                      ]
+                  },
+                  {
+                      "name": "tower",
+                      "image": "assets/village_tower.png",
+                      "width": 3,
+                      "height": 3,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "watch"]
+                      ]
+                  },
+                  {
+                      "name": "tower",
+                      "image": "assets/village_tower_2.png",
+                      "width": 3,
+                      "height": 3,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "watch"]
+                      ]
+                  },
+                  {
+                      "name": "watch_tower",
+                      "image": "assets/village_watchtower.png",
+                      "width": 3,
+                      "height": 3,
+                      "type": "building",
+                      "collision": false,
+                      "cover": false,
+                      "functions": [
+                          ["use", "watch"]
+                      ]
+                  }
+              ]
+            }
+          }
+        ],
+        "road": {
+          "type": "tilegroup",
+          "textures": [
+            {
+              "name": "dirt_road",
+              "type": "auto_tile",
+              "method": "blob47",
+              "image": "assets/road_blob47.png",
+              "collision": false,
+              "cover": false
+            }
+          ]
+        },
+        "bridge": {
+          "type": "tilegroup",
+          "textures": [
+            {
+              "name": "bridge",
+              "type": "auto_tile",
+              "method": "blob47",
+              "image": "assets/bridge_blob47.png",
+              "collision": false,
+              "cover": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "bush",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "textures": [
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/flower.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/flower2.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/flower3.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/mashroom.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/mashroom2.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/mashroom3.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/mashroom4.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/mashroom5.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/rock.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/rock2.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/rock3.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          },
+          {
+            "name": "bush",
+            "type": "tile",
+            "image": "assets/rock4.png",
+            "collision": false,
+            "cover": false,
+            "rate": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "woods",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "objectgroup",
+        "textures": [
+          {
+            "name": "oak_tree",
+            "type": "object",
+            "image": "assets/tree_2_s.png",
+            "width": 2,
+            "height": 2,
+            "collision": false,
+            "cover": true,
+            "rate": 2
+          },
+          {
+            "name": "oak_tree",
+            "type": "object",
+            "image": "assets/tree_2_m.png",
+            "width": 3,
+            "height": 3,
+            "collision": false,
+            "cover": true,
+            "rate": 6
+          },
+          {
+            "name": "pine_tree",
+            "type": "object",
+            "image": "assets/tree_3_m.png",
+            "width": 3,
+            "height": 3,
+            "collision": false,
+            "cover": true,
+            "rate": 6
+          }
+        ]
+      }
+    },
+    {
+      "name": "collision",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "textures": [
+          {
+              "name": "obstacle",
+              "type": "tile",
+              "image": "assets/obstacle.png",
+              "collision": true,
+              "cover": false,
+              "rate": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "cover",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "textures": [
+          {
+              "name": "cover",
+              "type": "tile",
+              "image": "assets/cover.png",
+              "collision": false,
+              "cover": true,
+              "rate": 1
+          }
+        ]
+      }
+    }
+  ]
+}

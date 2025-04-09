@@ -1,0 +1,192 @@
+{
+    "rules": [
+        {
+            "pattern": "0*111*0*",
+            "local_id": 1
+        },
+        {
+            "pattern": "0*11111*",
+            "local_id": 2
+        },
+        {
+            "pattern": "0*0*111*",
+            "local_id": 3
+        },
+        {
+            "pattern": "0*0*1*0*",
+            "local_id": 4
+        },
+        {
+            "pattern": "0*101*0*",
+            "local_id": 5
+        },
+        {
+            "pattern": "0*10111*",
+            "local_id": 6
+        },
+        {
+            "pattern": "0*11101*",
+            "local_id": 7
+        },
+        {
+            "pattern": "0*0*101*",
+            "local_id": 8
+        },
+        {
+            "pattern": "0*10101*",
+            "local_id": 9
+        },
+        {
+            "pattern": "10111011",
+            "local_id": 10
+        },
+        {
+            "pattern": "11111*0*",
+            "local_id": 12
+        },
+        {
+            "pattern": "11111111",
+            "local_id": 13
+        },
+        {
+            "pattern": "1*0*1111",
+            "local_id": 14
+        },
+        {
+            "pattern": "1*0*1*0*",
+            "local_id": 15
+        },
+        {
+            "pattern": "11101*0*",
+            "local_id": 16
+        },
+        {
+            "pattern": "11101111",
+            "local_id": 17
+        },
+        {
+            "pattern": "11111011",
+            "local_id": 18
+        },
+        {
+            "pattern": "1*0*1011",
+            "local_id": 19
+        },
+        {
+            "pattern": "11101011",
+            "local_id": 20
+        },
+        {
+            "pattern": "11101110",
+            "local_id": 21
+        },
+        {
+            "pattern": "111*0*0*",
+            "local_id": 23
+        },
+        {
+            "pattern": "111*0*11",
+            "local_id": 24
+        },
+        {
+            "pattern": "1*0*0*11",
+            "local_id": 25
+        },
+        {
+            "pattern": "1*0*0*01",
+            "local_id": 26
+        },
+        {
+            "pattern": "10111*0*",
+            "local_id": 27
+        },
+        {
+            "pattern": "10111111",
+            "local_id": 28
+        },
+        {
+            "pattern": "11111110",
+            "local_id": 29
+        },
+        {
+            "pattern": "1*0*1110",
+            "local_id": 30
+        },
+        {
+            "pattern": "10111110",
+            "local_id": 31
+        },
+        {
+            "pattern": "10111010",
+            "local_id": 32
+        },
+        {
+            "pattern": "10101110",
+            "local_id": 33
+        },
+        {
+            "pattern": "0*1*0*0*",
+            "local_id": 34
+        },
+        {
+            "pattern": "0*1*0*1*",
+            "local_id": 35
+        },
+        {
+            "pattern": "0*0*0*1*",
+            "local_id": 36
+        },
+        {
+            "pattern": "0*0*0*0*",
+            "local_id": 37
+        },
+        {
+            "pattern": "101*0*0*",
+            "local_id": 38
+        },
+        {
+            "pattern": "101*0*11",
+            "local_id": 39
+        },
+        {
+            "pattern": "111*0*10",
+            "local_id": 40
+        },
+        {
+            "pattern": "1*0*0*10",
+            "local_id": 41
+        },
+        {
+            "pattern": "101*0*10",
+            "local_id": 42
+        },
+        {
+            "pattern": "11101010",
+            "local_id": 43
+        },
+        {
+            "pattern": "10101011",
+            "local_id": 44
+        },
+        {
+            "pattern": "10101*0*",
+            "local_id": 49
+        },
+        {
+            "pattern": "10101111",
+            "local_id": 50
+        },
+        {
+            "pattern": "11111010",
+            "local_id": 51
+        },
+        {
+            "pattern": "1*0*1010",
+            "local_id": 52
+        },
+        {
+            "pattern": "10101010",
+            "local_id": 53
+        }
+    ]
+}

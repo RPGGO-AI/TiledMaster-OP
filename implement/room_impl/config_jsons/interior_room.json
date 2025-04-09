@@ -1,0 +1,140 @@
+{
+  "name": "room",
+  "description": "",
+  "type": "room",
+  "width": 60,
+  "height": 60,
+  "elements": [
+    {
+      "name": "interior",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "interior",
+        "grid_width": 12,
+        "grid_height": 8,
+        "cell_width": 4,
+        "cell_height": 5,
+        "line_width": 2,
+        "scale": 2,
+        "floor": {
+          "textures": [
+            {
+              "name": "floor",
+              "image": "assets/floor_1.png",
+              "collision": false,
+              "cover": false,
+              "rate": 20
+            },
+            {
+              "name": "floor",
+              "image": "assets/floor_2.png",
+              "collision": false,
+              "cover": false,
+              "rate": 2
+            },
+            {
+              "name": "floor",
+              "image": "assets/floor_3.png",
+              "collision": false,
+              "cover": false,
+              "rate": 2
+            },
+            {
+              "name": "floor",
+              "image": "assets/floor_4.png",
+              "collision": false,
+              "cover": false,
+              "rate": 2
+            },
+            {
+              "name": "floor",
+              "image": "assets/floor_5.png",
+              "collision": false,
+              "cover": false,
+              "rate": 2
+            },
+            {
+              "name": "floor",
+              "image": "assets/floor_6.png",
+              "collision": false,
+              "cover": false,
+              "rate": 20
+            }
+          ]
+        },
+        "wall_lv1": {
+          "textures": [
+            {
+              "name": "wall_l1",
+              "image": "assets/wall_level2.png",
+              "collision": true,
+              "cover": false,
+              "rate": 1
+            }
+          ]
+        },
+        "wall_lv2": {
+          "textures": [
+            {
+              "name": "wall_l2",
+              "image": "assets/wall_level2.png",
+              "collision": true,
+              "cover": false,
+              "rate": 1
+            }
+          ]
+        },
+        "roof": {
+          "textures": [
+            {
+              "name": "roof_auto",
+              "type": "auto_tile",
+              "image": "assets/void_blob47.png",
+              "method": "blob47",
+              "collision": true,
+              "cover": false,
+              "rate": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "collision",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "scale": 1,
+        "textures": [
+          {
+            "name": "collision_tile",
+            "image": "assets/obstacle.png",
+            "collision": true,
+            "cover": false,
+            "rate": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "cover",
+      "enable": true,
+      "description": "",
+      "data": {
+        "type": "tilegroup",
+        "scale": 1,
+        "textures": [
+          {
+            "name": "cover_tile",
+            "image": "assets/cover.png",
+            "collision": false,
+            "cover": true,
+            "rate": 1
+          }
+        ]
+      }
+    }
+  ]
+}

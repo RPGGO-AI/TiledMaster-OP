@@ -1,0 +1,100 @@
+{
+    "name": "Map User Config",
+    "config_items": [
+        {
+            "name": "Layout",
+            "description": "This is the layout template for the user configuration for the map generation",
+            "selection": "single",
+            "type": "dict",
+            "selected_value": {
+                "name": "Village"
+            },
+            "options": [
+                {
+                    "name": "Village",
+                    "description": "This is the village layout template for the map generation",
+                    "sample_images": [
+                        "assets/village_icon.png"
+                    ]
+                },
+                {
+                    "name": "Town",
+                    "description": "This is the City layout template for the map generation",
+                    "sample_images": [
+                        "assets/town_icon.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Scene",
+            "description": "Choose a scene for the map, this will effect the art style of the map",
+            "selection": "single",
+            "type": "dict",
+            "selected_value": {
+                "name": "Summer"
+            },
+            "options": [
+                {
+                    "name": "Summer",
+                    "description": "This is a summer scene of the map",
+                    "sample_images": [
+                        "assets/summer_icon.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Building",
+            "description": "choose whether to enable default building and the num of the default building",
+            "selection": "single",
+            "type": "int",
+            "enabled": true,
+            "selected_value": 7,
+            "options": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                15,
+                20
+            ]
+        },
+        {
+            "name": "Tree",
+            "description": "choose whether to enable woods and the density of the woods",
+            "selection": "single",
+            "type": "string",
+            "enabled": true,
+            "selected_value": "Dense",
+            "options": [
+                "Sparse",
+                "Slightly Dense",
+                "Dense",
+                "Lush"
+            ]
+        },
+        {
+            "name": "Water",
+            "description": "whether to enable water and the scale of the water",
+            "selection": "single",
+            "type": "string",
+            "enabled": true,
+            "selected_value": "Stream",
+            "options": [
+                "Pond",
+                "Creek",
+                "Stream",
+                "River",
+                "Ocean",
+                "Coast"
+            ]
+        }
+    ]
+}
