@@ -1,6 +1,6 @@
 numpy
 aiohttp
-openai
+aiofiles
 uvicorn
 fastapi
 pillow
@@ -8,12 +8,6 @@ pydantic
 gradio
 requests
 python-dotenv
-google-cloud-storage
-google-auth
-chardet
-groq
-python-json-logger
-apscheduler
 matplotlib
 perlin-noise
 loguru
